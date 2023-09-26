@@ -1,0 +1,86 @@
+@import url("../root.css");
+
+.pre--footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#h1--contact-form--2 {
+    color: var(--LIGHT-PURPLE);
+}
+
+.contact--grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.span-2 {
+    grid-column: 1 / span 2;
+}
+
+#form-header{
+    margin-top: 50px;
+}
+
+/*Input fields*/
+
+.contact--grid input,
+.contact--grid label {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contact--grid input {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid var(--GRAY);
+    font-size: 20px;
+
+}
+
+.contact--grid input:is(:hover, :focus, :active) {
+    box-shadow: none;
+    border-bottom: 1px solid var(--GRAY);
+}
+
+.contact--grid textarea {
+    border: none;
+    resize: none;
+    border-bottom: 1px solid var(--GRAY);
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+.contact--grid textarea:is(:hover, :focus, :active) {
+    border: none;
+    resize: none;
+    border-bottom: 1px solid var(--GRAY);
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.contact--grid button {
+    border: none;
+    border-radius: 20px;
+    background-color: var(--DARK-PURPLE);
+    font-family: var(--FONT);
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    padding: 20px 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact--grid button:hover {
+    transform: scale(1.03);
+    background-color: var(--LIGHT-PURPLE);
+}

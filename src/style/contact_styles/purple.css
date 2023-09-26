@@ -1,0 +1,36 @@
+@import url("../root.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.purple {
+    padding: 200px 120px;
+    width: 100%;
+    background-color: var(--DARK-PURPLE);
+    color: white;
+}
+
+.purple h1 {
+    font-size: 75px;
+    text-align: start;
+    font-family: var(--ROBOTO);
+}
+
+.purple h5 {
+    font-family: var(--FONT);
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.purple button {
+    box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px 50px;
+    font-size: 15px;
+    font-family: var(--FONT);
+    color: var(--DARK-PURPLE);
+    font-weight: 800;
+    line-height: 16.11px;
+    letter-spacing: 0.45px;
+    margin-top: 30px;
+}

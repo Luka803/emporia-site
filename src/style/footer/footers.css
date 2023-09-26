@@ -1,0 +1,60 @@
+@import url("../root.css");
+
+.footer-container {
+    position: relative;
+    background: url('../../images/potpis.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 50px;
+    margin-bottom: 50px;
+    z-index: 0;
+}
+
+.footer-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+
+.overlay {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.emporia {
+    z-index: 10;
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px;
+    border-bottom: 5px solid var(--DARK-PURPLE);
+}
+
+.services {
+    z-index: 10;
+    color: white;
+    font-family: var(--FONT);
+    font-size: 25px;
+    line-height: 21.87px;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    padding-inline: 10px;
+    gap: 40px;
+}
+
+.services a:is(:hover, :focus, :active) {
+    cursor: pointer;
+    opacity: 0.8;
+
+}
