@@ -12,6 +12,10 @@
     gap: 40px;
 }
 
+.contact {
+    margin-left: 50px;
+}
+
 #h1--contact-form--2 {
     color: var(--LIGHT-PURPLE);
 }
@@ -27,7 +31,7 @@
     grid-column: 1 / span 2;
 }
 
-#form-header{
+#form-header {
     margin-top: 50px;
 }
 
