@@ -1,0 +1,15 @@
+@import url('../root.css');
+
+.main {
+    background: url('../../images/abstract-gradient-neon-lights\ copy\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    padding: 60px;
+}
+
+.main img {
+    position: relative;
+    top: 67px;
+    right: -850px;
+}
